@@ -2,9 +2,7 @@ AI Research Copilot
 
 An AI-powered multi-source research assistant that combines Groq LLMs, RAG (Retrieval-Augmented Generation), web search (Tavily), and YouTube intelligence to help users understand documents, explore the web, and learn from videos — all in one unified Streamlit interface.
 
-Live Demo
-
-https://your-streamlit-app-link.streamlit.app
+Live Demo: https://ai-research-copilot-aniruddha.streamlit.app/
 
 Features:
 PDF Intelligence (RAG)
