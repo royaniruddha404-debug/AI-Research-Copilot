@@ -40,8 +40,8 @@ Streamlit UI
 Route Decision (Chat / PDF / Web / YouTube)
     ↓
 ────────────────────────────
-|  RAG Pipeline           |
-|  Web Search (Tavily)    |
+|  RAG Pipeline            |
+|  Web Search (Tavily)     |
 |  YouTube API + Transcript|
 ────────────────────────────
     ↓
