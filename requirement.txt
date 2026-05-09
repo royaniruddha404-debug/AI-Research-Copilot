@@ -1,8 +1,12 @@
 streamlit
+
 langchain
 langchain-core
+langchain-community
 langchain-groq
+
 python-dotenv
+
 google-api-python-client
 youtube-transcript-api
 tavily-python
