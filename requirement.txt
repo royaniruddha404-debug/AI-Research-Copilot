@@ -1,12 +1,15 @@
-streamlit
+streamlit>=1.35.0
 
-langchain
-langchain-core
-langchain-community
-langchain-groq
+langchain==0.2.11
+langchain-core==0.2.27
+langchain-community==0.2.10
+langchain-groq==0.1.5
 
 python-dotenv
 
 google-api-python-client
 youtube-transcript-api
 tavily-python
+
+faiss-cpu
+pypdf
