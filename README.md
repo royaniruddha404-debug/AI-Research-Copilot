@@ -60,36 +60,6 @@ Web Search: Tavily API
 Video Intelligence: YouTube Data API + Transcript API
 Language: Python
 
-Project Structure
-ai-research-copilot/
-│
-├── app.py
-├── requirements.txt
-├── .env
-├── README.md
-│
-├── core/
-│   │
-│   ├── llm/
-│   │   └── groq_client.py
-│   │
-│   ├── agents/
-│   │   └── router.py
-│   │
-│   ├── rag/
-│   │   ├── pdf_loader.py
-│   │   ├── chunking.py
-│   │   ├── vectorstore.py
-│   │   ├── retriever.py
-│   │   └── citations.py
-│   │
-│   ├── tools/
-│   │   ├── web_search.py
-│   │   ├── youtube_tool.py
-│   │   ├── code_tool.py
-│   │   └── query_generator.py
-
-
 
 Main Dashboard
 
