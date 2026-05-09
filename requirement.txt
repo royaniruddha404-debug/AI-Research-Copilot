@@ -1,8 +1,0 @@
-streamlit
-langchain
-langchain-core
-langchain-groq
-python-dotenv
-google-api-python-client
-youtube-transcript-api
-tavily-python
