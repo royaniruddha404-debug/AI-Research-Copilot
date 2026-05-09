@@ -32,26 +32,8 @@ Model Control Panel
 Choose between multiple Groq models
 Adjust temperature for creativity control
 
-System Architecture
-User Query
-    ↓
-Streamlit UI
-    ↓
-Route Decision (Chat / PDF / Web / YouTube)
-    ↓
-────────────────────────────
-|  RAG Pipeline            |
-|  Web Search (Tavily)     |
-|  YouTube API + Transcript|
-────────────────────────────
-    ↓
-Context Builder
-    ↓
-Groq LLM (LLaMA / Mixtral)
-    ↓
-Final Answer + Citations
 
-Tech Stack
+Tech Stack:
 Frontend: Streamlit
 LLM Provider: Groq (LLaMA 3 / Mixtral)
 Framework: LangChain
@@ -60,13 +42,10 @@ Web Search: Tavily API
 Video Intelligence: YouTube Data API + Transcript API
 Language: Python
 
-
+Features:
 Main Dashboard
-
 PDF Chat
-
 Web Research
-
 YouTube Assistant
 
 Installation & Setup
@@ -90,7 +69,6 @@ YOUTUBE_API_KEY=your_youtube_api_key
 
 5. Run the app
 streamlit run app.py
-
 
 Key Design Highlights:
 Some YouTube videos may not have transcripts (handled with fallback)
